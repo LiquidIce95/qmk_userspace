@@ -36,7 +36,7 @@ enum dilemma_keymap_layers {
 #define TAB_FUN LT(LAYER_FUNCTION, KC_TAB)
 #define ENT_SYM LT(LAYER_SYMBOLS, KC_ENT)
 #define BSP_NUM LT(LAYER_NUMERAL, KC_BSPC)
-#define PT_Z LT(LAYER_POINTER, KC_Z)
+#define PT_Y LT(LAYER_POINTER, KC_Y)
 #define PT_SLSH LT(LAYER_POINTER, KC_SLSH)
 
 #ifndef POINTING_DEVICE_ENABLE
@@ -52,7 +52,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [LAYER_BASE] = LAYOUT_split_3x5_3(
        KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,
        LGUI_T(KC_A), LALT_T(KC_S), LCTL_T(KC_D), LSFT_T(KC_F), KC_G, KC_H, RSFT_T(KC_J), RCTL_T(KC_K), RALT_T(KC_L), RGUI_T(KC_QUOT),
-       PT_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M, KC_COMM,  KC_DOT, PT_SLSH,
+       PT_Y,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M, KC_COMM,  KC_DOT, PT_SLSH,
                       ESC_MED, TAB_FUN, SPC_NAV, ENT_SYM, BSP_NUM, KC_CAPS
   ),
 
