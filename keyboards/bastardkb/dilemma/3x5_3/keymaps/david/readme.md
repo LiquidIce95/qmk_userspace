@@ -4,6 +4,7 @@ The Dilemma `via` keymap is based on a QWERTY layout with [home row mods](https:
 
 This layout also supports VIA.
 
+
 ## Customizing the keymap
 
 ### Dynamic DPI scaling
